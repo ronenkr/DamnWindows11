@@ -1,0 +1,90 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm64/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# .NET / MSBuild
+*.binlog
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+.nuget/packages/
+nupkg/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+*.userprefs
+launchSettings.local.json
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ilk
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.tlog
+*.vcxproj.filters
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code (keep shared settings, drop the rest)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Misc
+*.log
+*.tmp
+*.bak
+*.swp
+*~

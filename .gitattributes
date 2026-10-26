@@ -1,0 +1,15 @@
+# Normalize text files to LF in the repo, check out with native line endings.
+* text=auto
+
+*.cs       text diff=csharp
+*.csproj   text
+*.sln      text eol=crlf
+*.md       text
+*.json     text
+*.xml      text
+*.manifest text
+
+*.ico   binary
+*.png   binary
+*.exe   binary
+*.dll   binary
